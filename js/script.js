@@ -1,6 +1,6 @@
 new Glide(".images",{
     type: 'slider',
-    perView: 3,
+    perView: 2,
     focusAt: 'center',
     gap: 0,
     startAt: 1,

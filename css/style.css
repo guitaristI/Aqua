@@ -392,10 +392,9 @@ body{
   font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 140%;
   color: #FFFFFF;
-  max-width: 516px;
 }
 .reviews__item-text p{
   margin-bottom: 20px;
