@@ -536,6 +536,16 @@ body{
 .contact__row-map img{
   max-width: 800px;
 }
+.map{
+  -moz-border-radius: 14px 14px 14px 14px; /* Firefox */
+  -webkit-border-radius: 14px 14px 14px 14px; /* Safari, Chrome */
+  -khtml-border-radius: 14px 14px 14px 14px; /* KHTML */
+  border-radius: 10px; /* CSS3 */
+  width: 800px;
+  height: 550px;
+  overflow: hidden;
+  position: relative;
+}
 .row {
 }
 .row__items {
@@ -920,3 +930,4 @@ body{
     padding-right:25px;
   }
 }
+

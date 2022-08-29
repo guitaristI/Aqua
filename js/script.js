@@ -1,3 +1,29 @@
+// Функция ymaps.ready() будет вызвана, когда
+        // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+        ymaps.ready(init);
+        function init(){
+            var myMap = new ymaps.Map("map", {
+            center: [59.925957, 30.395550],
+            zoom: 12
+        });
+        myMap.geoObjects
+        .add(new ymaps.Placemark([59.938757, 30.471690], {
+            balloonContent: 'Запись по договоренности',
+            iconCaption: 'Бассейн WorkClass'
+        }, {
+            preset: 'islands#greenDotIconWithCaption'
+        }))
+        .add(new ymaps.Placemark([59.925574, 30.321545], {
+            balloonContent: 'Запись по договоренности',
+            iconCaption: 'Бассейн "На Гороховой"'
+        }, {
+            preset: 'islands#greenDotIconWithCaption'
+        }))
+
+
+    }
+    //59.925574, 30.321545
+
 new Glide(".images",{
     type: 'slider',
     perView: 2,
